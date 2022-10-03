@@ -38,7 +38,7 @@ function showNewUserOnScreen(user) {
   }
 
   const parentNode = document.getElementById("listOfExpenses");
-  const childHTML = `<li> ${user.name}-${user.amount} - ${user.description} - ${user.category}
+  const childHTML = `<li> ${user.name} - ${user.amount} - ${user.description} - ${user.category}
   <button onClick=deleteUser("${user.name}")>Delete</button>
   <button onClick=editUserDetails("${user.name}","${user.amount}","${user.description}","${user.category}")>Edit</button>
   </li>`;

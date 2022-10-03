@@ -1,12 +1,12 @@
 header {
   text-size-adjust: 30px;
-  background-color: lightblue;
+  background-color: rgb(29, 198, 254);
 }
 
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   line-height: 1.6;
-  background-color: darkgray;
+  background-color: rgb(250, 240, 240);
 }
 
 ul {
@@ -43,7 +43,7 @@ header {
   border: 1px solid #ccc;
 }
 
-.btn {
+.submit {
   display: block;
   width: 100%;
   padding: 10px 15px;
